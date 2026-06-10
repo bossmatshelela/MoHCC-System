@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+/* Geometric Balance Theme Classes */
+.geom-card {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px !important;
+  box-shadow: 3px 3px 0px rgba(6, 78, 59, 0.12);
+}
+
+.geom-btn-primary {
+  background-color: #064e3b;
+  color: #ffffff;
+  border: 1px solid #022c22;
+  border-radius: 4px !important;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: 2px 2px 0px rgba(6, 78, 59, 0.2);
+}
+
+.geom-btn-primary:hover {
+  background-color: #059669;
+  box-shadow: 1px 1px 0px rgba(6, 78, 59, 0.2);
+  transform: translate(1px, 1px);
+}
+
+.geom-btn-secondary {
+  background-color: #ffffff;
+  color: #1e293b;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px !important;
+  font-weight: 500;
+  transition: all 0.2s;
+  box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.geom-btn-secondary:hover {
+  background-color: #f8fafc;
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.geom-badge {
+  border-radius: 100px !important;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.geom-input {
+  border: 1px solid #cbd5e1;
+  border-radius: 4px !important;
+  background-color: #ffffff;
+}
+
+.geom-input:focus {
+  border-color: #059669;
+  outline: none;
+}
+

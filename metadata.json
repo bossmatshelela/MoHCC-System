@@ -1,0 +1,6 @@
+{
+  "name": "Zimbabwe Child Immunisation Registry",
+  "description": "Centralized national public health tracking system for child immunisations, reporting, and clinic scheduling for the Ministry of Health and Child Care of Zimbabwe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
